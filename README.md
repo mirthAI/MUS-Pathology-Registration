@@ -122,25 +122,37 @@ For those who prefer running scripts from the shell, follow these steps to train
    pip install -r requirements.txt
    ```
 4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
-   ```
-   chmod +x ./run_data_preparation.sh
-   ./run_data_preparation.sh
-   ```
-   This code will create two folders `png_images` and `processed_png_data` inside the data directory. The images inside the `processed_png_data` will be used to train the network; therefore, if you like you can delete `png_images` directory.
-
-5. **Train Image Registration Network:**
-   - Navigate to the correct directory, where the scripted code is saved:
+   - Navigate to the directory where the script is saved:
      ```
      cd ScriptedCodes
      ```
      
-    - Now runt the following commands to train both affine and deformable registration networks for six folds:
+    - Now runt the following commands to prepare the dataset for image registration task:
+    
+      ```
+      chmod +x ./run_data_preparation.sh
+      ./run_data_preparation.sh   
+      ```
+      
+   This will create two folders, `png_data` and `processed_png_data`, inside the `data` directory. The images inside `processed_png_data` will be used to train the networks; you may delete the `png_images` directory if desired.
+
+6. **Train Image Registration Network:** Ensure you are in the `ScriptedCodes` directory and run the following commands to train both affine and deformable registration networks for six folds:
     
       ```
       chmod +x ./run_training.sh
       ./run_training.sh   
       ```
-7. 
+7. **Prediction and Evaluation:** Ensure you are in the `ScriptedCodes` directory and run the following commands for prediction and evaluation metrics generation:
+    
+      ```
+      chmod +x ./run_prediction_and_evaluation.sh
+      ./run_prediction_and_evaluation.sh
+      ```
+
+   This will generate the deformed registered images in the `results` directory. It will also generate a cvs file containing the dice coefficient, Hausdorff distance, Eurethra Distance, Distances for Landmark 1, 2, and 3, and as well as the average landkmark distance.
+
+You are welcome to experiment and improve our results. 
+
 ## Dependencies
 
 <div align=center>
