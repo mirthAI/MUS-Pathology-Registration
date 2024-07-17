@@ -26,11 +26,10 @@ Welcome to the repository containing the code for our **Microu-Us and Histopatho
 1. [Overview](#overview)
 2. [Directory Structure](#directory-structure)
 3. [Dataset Detail](#dataset-detail)
-4. [Directory Structure](#directory-structure)
-5. [Scripted Code](#scripted_code)
-6. [Interactive Code](#interactive_cde)
-7. [Dependencies](#dependencies)
-8. [Citations](#citations)
+4. [Scripted Code](#scripted_code)
+5. [Interactive Code](#interactive_cde)
+6. [Dependencies](#dependencies)
+7. [Citations](#citations)
 
 ---
 
@@ -52,7 +51,7 @@ This is a proof-of-concept study showcasing the potential of deep learning for m
 
 <h2>Directory Structure<a id=directory-structure"></a></h2>
 
-Let's clone the repository as follows:
+
 
 <h3> 1. Clone the Repository:</h3>
 
@@ -114,7 +113,9 @@ Please download the dataset from the provided link and place it in the data dire
 
 ----
 
-<div align=center> <h1>
+
+<div align=center> <h1> 
+  <a id="scripted_code"></a>
   Scipted Code
 </h1></div>
 
@@ -167,6 +168,7 @@ For those who prefer running scripts from the shell, follow these steps to train
 
 
 <div align="center">
+  <a id="interactive_code"></a>
   <h1>Interactive Code</h1>
 </div>
 
