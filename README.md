@@ -59,7 +59,44 @@ Let's clone the repository as follows:
   ```
   cd MUS-Pathology-Registration
   ```
+<h3> 3. Directory Structure </h3>
 
+
+```
+MUS-Pathology-Registration/
+├── data/                                                  # Folder containing the data in nifti format
+│   ├── Subject002/
+│   │   ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
+│   │   ├── microUS_3D_Subject002_tumor_label.nii.gz       # 3D Micro-US Tumor Label
+│   │   ├── Subject002_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
+│   │   ├── Subject002_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
+│   │   ├── Subject002_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
+│   │   ├── Subject002_histopathology_volume.nii.gz        # 3D Histopathology Volume
+│   │   ├── Subject002_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
+│   │   └── Subject002_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels only for Corresponding Histopathological Slices
+│   ├── Subject006/                                        # Folder containing the data in nifti format
+│   │   ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
+│   │   ├── microUS_3D_Subject002_tumor_label.nii.gz       # 3D Micro-US Tumor Label
+│   │   ├── Subject002_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
+│   │   ├── Subject002_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
+│   │   ├── Subject002_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
+│   │   ├── Subject002_histopathology_volume.nii.gz        # 3D Histopathology Volume
+│   │   ├── Subject002_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
+│   │   └── Subject002_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels only for Corresponding Histopathological Slices
+│   ├── Subject008/
+│   └──...                                                 # ... (similar eighteen subjects)
+|
+├── InteractiveCodes                                       # Folder containing the jupyter notebooks (if you prefer interactive style of coding)
+│   ├── 1_Preparing_the_Data.ipynb                         # First notebook to prepare the dataset ready for image registration task
+│   ├── 2_affine_registration_training.ipynb               # Second notebook to run and training the deep-learning networks for image registration tasks
+│   ├── 3_Performance_Evaluation.ipynb                     # Third and last notebook to evaluate and produce the registered images and compute the metrics.
+│   └── utils/                                             # Folder containing utility functions required to run the notebooks
+├── ScriptedCodes                                          # Folder containing the jupyter notebooks (if you prefer interactive style of coding)
+│   ├── 1_Preparing_the_Data.ipynb                         # First notebook to prepare the dataset ready for image registration task
+│   ├── 2_affine_registration_training.ipynb               # Second notebook to run and training the deep-learning networks for image registration tasks
+│   ├── 3_Performance_Evaluation.ipynb                     # Third and last notebook to evaluate and produce the registered images and compute the metrics.
+│   └── utils/                                             # Folder containing utility functions required to run the notebooks
+```
 ----
 
 
