@@ -27,7 +27,7 @@ Welcome to the repository containing the code for our **Microu-Us and Histopatho
 2. [Directory Structure](#directory-structure)
 3. [Dataset Detail](#dataset-detail)
 4. [Scripted Code](#scripted_code)
-5. [Interactive Code](#interactive_cde)
+5. [Interactive Code](#interactive_code)
 6. [Dependencies](#dependencies)
 7. [Citations](#citations)
 
