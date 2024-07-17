@@ -50,14 +50,14 @@ Let's clone the repository as follows:
 
   Open your terminal or command prompt and clone the project directory as follows:
   ```
-  git clone https://github.com/ImranNust/Micro-US-and_Histopathological_Registration
+  git clone https://github.com/mirthAI/MUS-Pathology-Registration.git
   ```
 
 <h3> 2. Navigate to the Directory: </h3>
 
   Once the repository is cloned, navigate to the desired directory using the `cd` command as follows:
   ```
-  cd Micro-US-and_Histopathological_Registration
+  cd MUS-Pathology-Registration
   ```
 
 ----
