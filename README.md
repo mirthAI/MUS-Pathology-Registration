@@ -145,16 +145,16 @@ For those who prefer running scripts from the shell, follow these steps to train
 
 <div align=center>
   
-![Python Version](https://img.shields.io/badge/Python-3.10.6-3776AB?logo=python&logoColor=white)
-![Open CV Version](https://img.shields.io/badge/OpenCV-4.7.0-5C3EE8?logo=opencv&logoColor=white)
-![Numpy Version](https://img.shields.io/badge/Numpy-1.24.4-013243?logo=numpy&logoColor=white)
-![PIL Version](https://img.shields.io/badge/PIL-9.2.0-CC3333?logo=python&logoColor=white)
-![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.8.3-11557C?logo=python&logoColor=white)
-![Torchvision Version](https://img.shields.io/badge/Torchvision-0.15.1%2Bcu117-EE4C2C?logo=pytorch&logoColor=white)
-![Scipy Version](https://img.shields.io/badge/Scipy-1.13.1-8CAAE6?logo=scipy&logoColor=white)
-![SimpleITK Version](https://img.shields.io/badge/SimpleITK-2.2.1-8CAAE6?logo=simplitk&logoColor=white)
-![CSV Version](https://img.shields.io/badge/CSV-1.0-8CAAE6?logo=csv&logoColor=white)
-
-
+![Python Version](https://img.shields.io/badge/Python-3.10.14-3776AB?labelColor=FFD43B&logo=python&logoColor=white)  &emsp;
+![Open CV Version](https://img.shields.io/badge/OpenCV-4.10.0-5C3EE8?labelColor=FF5733&logo=opencv&logoColor=white)  &emsp;
+![Numpy Version](https://img.shields.io/badge/Numpy-1.26.4-013243?labelColor=F5B041&logo=numpy&logoColor=white) &emsp;
+![PIL Version](https://img.shields.io/badge/PIL-10.3.0-CC3333?labelColor=FFC300&logo=python&logoColor=white) &emsp;
+![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.8.3-11557C?labelColor=900C3F&logo=python&logoColor=white) &emsp;
+![Torchvision Version](https://img.shields.io/badge/Torchvision-0.15.2%2Bcu117-EE4C2C?labelColor=581845&logo=pytorch&logoColor=white) &emsp;
+![Scipy Version](https://img.shields.io/badge/Scipy-1.12.0-8CAAE6?labelColor=0055A5&logo=scipy&logoColor=white) &emsp;
+![SimpleITK Version](https://img.shields.io/badge/SimpleITK-2.2.1-00BFFF?labelColor=2C3E50&logo=simplitk&logoColor=white) &emsp;
+![CSV Version](https://img.shields.io/badge/CSV-1.0-FF6347?labelColor=008080&logo=csv&logoColor=white) &emsp;
+![Pandas Version](https://img.shields.io/badge/Pandas-2.0.0-150458?labelColor=DAF7A6&logo=pandas&logoColor=white) &emsp;
+![PyTorch Version](https://img.shields.io/badge/PyTorch-2.0.1-EE4C2C?labelColor=FFC0CB&logo=pytorch&logoColor=white) 
 
 </div>
