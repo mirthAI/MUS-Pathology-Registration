@@ -27,14 +27,10 @@ Welcome to the repository containing the code and dataset for **CIS-UNet**, a de
 2. [Directory Structure](#directory-structure)
 3. [Dataset Detail](#dataset-detail)
 4. [Directory Structure](#directory-structure)
-5. [Training from the Shell](#training-from-shell)
-6. [Prediction from the Shell](#prediction-from-shell)
-7. [Evaluation from the Shell](#validation-from-shell) 
-8. [Interactive Training](#training-in-jupyter-notebook)
-9. [Interactive Prediction](#prediction-in-jupyter-notebook)
-10. [Interactive Evaluation](#evaluation-in-jupyter-notebook)
-11. [Dependencies](#dependencies)
-12. [Citations](#citations)
+5. [Scripted Code](#scripted_code)
+6. [Interactive Code](#interactive_cde)
+7. [Dependencies](#dependencies)
+8. [Citations](#citations)
 
 ---
 
@@ -106,7 +102,34 @@ Please download the dataset from the provided link and place it in the data dire
 
 ----
 
+<div align=center> <h1>
+  Interactive Code
+</h1></div>
 
+For those who prefer running scripts from the shell, follow these steps to train the model:
+
+
+1. **Create an Environment:** Create a new virtual environment using `conda`.
+   ```
+   conda create --name MicroUS_Hist_Registration python=3.10
+   ```
+2. **Activate the Enviornment:** Activate the newly created environment.
+   ```
+   conda activate MicroUS_Hist_Registration
+   ```
+3. **Install Required Packages:** Install the necessary packages listed in the **[requirements.txt](https://github.com/ImranNust/CIS-UNet-Context-Infused-Swin-UNet-for-Aortic-Segmentation/blob/main/requirements.txt)** file.
+   ```
+   pip install -r requirements.txt
+   ```
+4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
+   ```
+   chmod +x ./run_data_preparation
+   ./run_data_preparation
+   ```
+   This code will create two folders `png_images` and `processed_png_data` inside the data directory. The images inside the `processed_png_data` will be used to train the network; therefore, if you like you can delete `png_images` directory.
+
+5. **Train Image Registration Network:**
+6. 
 ## Dependencies
 
 <div align=center>
