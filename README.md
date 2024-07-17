@@ -36,6 +36,18 @@ Welcome to the repository containing the code for our **Microu-Us and Histopatho
 
 <h2>Overview <a id="overview" ></a></h2>
 
+This repository contains code and a dataset for a semi-automated approach to registering **in vivo micro-ultrasound (Micro-US)** images with **ex vivo whole-mount histopathology** images for prostate cancer diagnosis.
+
+Our method utilizes deep learning to improve the accuracy of interpreting Micro-US images, which are a cost-effective alternative to MRI-guided biopsies. The challenge lies in differentiating cancerous from healthy tissue due to subtle variations in grayscale.
+
+**Key Features:**
+
+- **Code for image registration:** This code implements a two-stage deep learning framework for registering Micro-US slices with histopathology images.
+- **Publicly available dataset:** The dataset for eigteen subjects can be downloaded from the link, containing a dataset of Micro-US and histopathology images.
+- **High accuracy:** Our evaluation demonstrates a Dice coefficient of 0.97 and a mean landmark error of 2.84 mm, indicating successful image alignment.
+
+This is a proof-of-concept study showcasing the potential of deep learning for more accurate Micro-US prostate cancer diagnosis.
+
 ---
 
 <h2>Directory Structure<a id=directory-structure"></a></h2>
@@ -103,7 +115,7 @@ Please download the dataset from the provided link and place it in the data dire
 ----
 
 <div align=center> <h1>
-  Interactive Code
+  Scipted Code
 </h1></div>
 
 For those who prefer running scripts from the shell, follow these steps to train the model:
@@ -149,9 +161,36 @@ For those who prefer running scripts from the shell, follow these steps to train
       ./run_prediction_and_evaluation.sh
       ```
 
-   This will generate the deformed registered images in the `results` directory. It will also generate a cvs file containing the dice coefficient, Hausdorff distance, Eurethra Distance, Distances for Landmark 1, 2, and 3, and as well as the average landkmark distance.
+   This will generate the deformed registered images in the `results` directory. Additionally, a CSV file will be generated containing the Dice coefficient, Hausdorff distance, Urethra distance, distances for Landmark 1, 2, and 3, as well as the average landmark distance.
 
-You are welcome to experiment and improve our results. 
+---
+
+
+<div align="center">
+  <h1>Interactive Code</h1>
+</div>
+
+For those who prefer Jupyter notebooks, navigate to the `InteractiveCodes` directory, where you will find three notebooks:
+
+1. **1_Preparing_the_Data.ipynb**
+2. **2_Train_Registration_Networks.ipynb**
+3. **3_Performance_Evaluation.ipynb**
+
+### Steps:
+
+1. **Prepare the Dataset:** 
+   - Open `1_Preparing_the_Data.ipynb` and run it. This self-explanatory notebook will guide you through all the steps to prepare the dataset. 
+   - This process will create two folders, `png_data` and `processed_png_data`, inside the `data` directory. The images inside `processed_png_data` will be used to train the networks; you may delete the `png_images` directory if desired.
+
+2. **Train Image Registration Network:** 
+   - Open `2_Train_Registration_Networks.ipynb` and run it. This notebook will walk you through the process of training both affine and deformable registration networks.
+
+3. **Prediction and Evaluation:** 
+   - Open `3_Performance_Evaluation.ipynb` and run it. This notebook will guide you through the steps for prediction and generating evaluation metrics.
+   - This process will generate the deformed registered images in the `results` directory. Additionally, a CSV file will be generated containing the Dice coefficient, Hausdorff distance, Urethra distance, distances for Landmark 1, 2, and 3, as well as the average landmark distance.
+
+Feel free to experiment and improve upon our results.
+
 
 ## Dependencies
 
