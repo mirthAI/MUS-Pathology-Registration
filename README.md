@@ -96,15 +96,15 @@ MUS-Pathology-Registration/
 │
 ├── InteractiveCodes/                                      # Folder for interactive Jupyter notebooks
 │   ├── 1_Preparing_the_Data.ipynb                         # Notebook to prepare the dataset for image registration
-│   ├── 2_affine_registration_training.ipynb               # Notebook for training deep-learning networks for registration
+│   ├── 2_Train_Registration_Networks.ipynb                # Notebook for training deep-learning networks for registration
 │   ├── 3_Performance_Evaluation.ipynb                     # Notebook to evaluate and produce registered images and metrics
-│   └── utils/                                              # Utility functions required for notebooks
+│   └── utils/                                             # Utility functions required for notebooks
 │
 └── ScriptedCodes/                                         # Folder for scripted Jupyter notebooks
     ├── 1_Preparing_the_Data.ipynb                         # Notebook to prepare the dataset for image registration
     ├── 2_affine_registration_training.ipynb               # Notebook for training deep-learning networks for registration
     ├── 3_Performance_Evaluation.ipynb                     # Notebook to evaluate and produce registered images and metrics
-    └── utils/                                              # Utility functions required for notebooks
+    └── utils/                                             # Utility functions required for notebooks
 
 ```
 
