@@ -2,7 +2,7 @@
   <img align="left" width="200" height="170" src="assets/LogoWithoutBG.png" alt="MicroUS and Histopathology Registration">
   Image Registration of <i>In Vivo</i> Micro-Ultrasound and <i>Ex Vivo</i> Pseudo-Whole Mount Histopathology Images of the Prostate: A Proof-of-Concept Study</h1>
 
-Welcome to the repository containing the code and dataset for **CIS-UNet**, a deep learning model designed for accurate 3D segmentation of the aorta and its branches.
+Welcome to the repository containing the code for our **Microu-Us and Histopathology Image Registration Newtork**, a deep learning model designed for registering micro-ultrasound and histopathology images.
   
 [![](https://img.shields.io/badge/Imran-gray?logo=github&logoColor=white&label=Muhammad&labelColor=darkgreen&color=red)](https://www.linkedin.com/in/imrannust/) &emsp;
 [![](https://img.shields.io/badge/Nguyen-gray?logo=ResearchGate&logoColor=white&label=Brianna&labelColor=darkblue&color=limegreen)](https://www.researchgate.net/profile/Brianna_Nguyen2) &emsp;
