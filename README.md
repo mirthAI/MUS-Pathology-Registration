@@ -150,20 +150,26 @@ For those who prefer running scripts from the shell, follow these steps to train
       
    This will create two folders, `png_data` and `processed_png_data`, inside the `data` directory. The images inside `processed_png_data` will be used to train the networks; you may delete the `png_images` directory if desired.
 
-6. **Train Image Registration Network:** Ensure you are in the `ScriptedCodes` directory and run the following commands to train both affine and deformable registration networks for six folds:
-    
-      ```
-      chmod +x ./run_training.sh
-      ./run_training.sh   
-      ```
-7. **Prediction and Evaluation:** Ensure you are in the `ScriptedCodes` directory and run the following commands for prediction and evaluation metrics generation:
-    
-      ```
-      chmod +x ./run_prediction_and_evaluation.sh
-      ./run_prediction_and_evaluation.sh
-      ```
+6. **Train the Image Registration Network:**
+   - Confirm that your current working directory is `ScriptedCodes`.
+   - To initiate the training process for both the affine and deformable registration networks across six folds, execute the following commands:
+        ```
+        chmod +x ./run_training.sh
+        ./run_training.sh
+        ```
+   - The script will automatically create a `saved_model` folder within the `ScriptedCodes` directory.
+   - The training process will proceed, and the model achieving the lowest loss will be stored in the `saved_model` directory.
+   
+7. **Prediction and Evaluation:**
+   - Verify that you are located within the `ScriptedCodes` directory.
+   - Execute the following commands to commence the prediction and evaluation process:
 
-   This will generate the deformed registered images in the `results` directory. Additionally, a CSV file will be generated containing the Dice coefficient, Hausdorff distance, Urethra distance, distances for Landmark 1, 2, and 3, as well as the average landmark distance.
+     ```
+     chmod +x ./run_prediction_and_evaluation.sh
+     ./run_prediction_and_evaluation.sh
+     ```
+   - Upon successful execution, the results directory will be populated with the deformed registered images.
+   - Concurrently, a comprehensive CSV file detailing the evaluation metrics will be generated. This file includes the **Dice coefficient**, **Hausdorff distance**, **Urethra distance**, and distances for **Landmark 1**, **Landmark 2**, and **Landmark 3**, along with the **average landmark distance**.
 
 ---
 
