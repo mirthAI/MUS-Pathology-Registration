@@ -200,6 +200,7 @@ For those who prefer Jupyter notebooks, navigate to the `InteractiveCodes` direc
 
 Feel free to experiment and improve upon our results.
 
+---
 
 ## Dependencies
 
@@ -218,3 +219,18 @@ Feel free to experiment and improve upon our results.
 ![PyTorch Version](https://img.shields.io/badge/PyTorch-2.0.1-EE4C2C?labelColor=FFC0CB&logo=pytorch&logoColor=white) 
 
 </div>
+
+---
+
+## Citations <a id="citations"></a>
+
+If you utilize our code or dataset in your research, we kindly ask you to acknowledge our work by citing the following publication:
+
+```bibtex
+@article{imran2023image,
+  title={Image Registration of In Vivo Micro-Ultrasound and Ex Vivo Pseudo-Whole Mount Histopathology Images of the Prostate: A Proof-of-Concept Study},
+  author={Imran, Muhammad and Nguyen, Brianna and Pensa, Jake and Falzarano, Sara M and Sisk, Anthony E and Liang, Muxuan and DiBianco, John Michael and Su, Li-Ming and Zhou, Yuyin and Brisbane, Wayne G and others},
+  journal={arXiv preprint arXiv:2305.19939},
+  year={2023}
+}
+```
