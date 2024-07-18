@@ -124,26 +124,26 @@ For those who prefer running scripts from the shell, follow these steps to train
 
 
 1. **Create an Environment:** Create a new virtual environment using `conda`.
-   ```
+   ```bash
    conda create --name MicroUS_Hist_Registration python=3.10
    ```
 2. **Activate the Enviornment:** Activate the newly created environment.
-   ```
+   ```bash
    conda activate MicroUS_Hist_Registration
    ```
 3. **Install Required Packages:** Install the necessary packages listed in the **[requirements.txt](https://github.com/ImranNust/CIS-UNet-Context-Infused-Swin-UNet-for-Aortic-Segmentation/blob/main/requirements.txt)** file.
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
    - Navigate to the directory where the script is saved:
-     ```
+     ```bash
      cd ScriptedCodes
      ```
      
     - Now runt the following commands to prepare the dataset for image registration task:
     
-      ```
+      ```bash
       chmod +x ./run_data_preparation.sh
       ./run_data_preparation.sh   
       ```
@@ -153,7 +153,7 @@ For those who prefer running scripts from the shell, follow these steps to train
 6. **Train the Image Registration Network:**
    - Confirm that your current working directory is `ScriptedCodes`.
    - To initiate the training process for both the affine and deformable registration networks across six folds, execute the following commands:
-        ```
+        ```bash
         chmod +x ./run_training.sh
         ./run_training.sh
         ```
@@ -164,7 +164,7 @@ For those who prefer running scripts from the shell, follow these steps to train
    - Verify that you are located within the `ScriptedCodes` directory.
    - Execute the following commands to commence the prediction and evaluation process:
 
-     ```
+     ```bash
      chmod +x ./run_prediction_and_evaluation.sh
      ./run_prediction_and_evaluation.sh
      ```
