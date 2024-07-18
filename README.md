@@ -101,10 +101,13 @@ MUS-Pathology-Registration/
 │   └── utils/                                                       # Utility functions required for notebooks
 │
 └── ScriptedCodes/                                                   # Folder for scripted Jupyter notebooks
-    ├── 1_Preparing_the_Data.ipynb                                   # Notebook to prepare the dataset for image registration
-    ├── 2_affine_registration_training.ipynb                         # Notebook for training deep-learning networks for registration
-    ├── 3_Performance_Evaluation.ipynb                               # Notebook to evaluate and produce registered images and metrics
-    └── utils/                                                       # Utility functions required for notebooks
+    ├── data_preparation.py                                          # Python script to prepare the dataset for image registration
+    ├── run_data_preparation.sh                                      # Bash script to run the data_preparation.py file
+    ├── train_image_registration_network.py                          # Python script for training deep-learning networks for registration
+    ├── run_train_image_registration_network.sh                      # Bash script to run train_image_registration_network.py file
+    ├── prediction_and_evaluation.py                                 # Python script to evaluate and produce registered images and metrics
+    ├── run_prediction_and_evaluation.sh                             # Bash script to run the prediction_and_evaluation.py file
+    └── utils/                                                       # Utility functions required for scripts' execution
 
 ```
 
