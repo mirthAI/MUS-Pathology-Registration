@@ -72,38 +72,39 @@ This is a proof-of-concept study showcasing the potential of deep learning for m
 ```
 MUS-Pathology-Registration/
 ├── data/                                                  # Main data directory in NIfTI format
-│   ├── Subject002/
-│   │   ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
-│   │   ├── microUS_3D_Subject002_tumor_label.nii.gz       # 3D Micro-US Tumor Label
-│   │   ├── Subject002_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
-│   │   ├── Subject002_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
-│   │   ├── Subject002_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
-│   │   ├── Subject002_histopathology_volume.nii.gz        # 3D Histopathology Volume
-│   │   ├── Subject002_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
-│   │   └── Subject002_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels for Corresponding Histopathological Slices
-│   ├── Subject006/
-│   │   ├── microUS_3D_Subject006_image.nii.gz             # 3D Micro-US Volume
-│   │   ├── microUS_3D_Subject006_tumor_label.nii.gz       # 3D Micro-US Tumor Label
-│   │   ├── Subject006_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
-│   │   ├── Subject006_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
-│   │   ├── Subject006_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
-│   │   ├── Subject006_histopathology_volume.nii.gz        # 3D Histopathology Volume
-│   │   ├── Subject006_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
-│   │   └── Subject006_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels for Corresponding Histopathological Slices
-│   ├── Subject008/
-│   └── ...                                                # Similar structure for eighteen subjects
+│   ├── nifti_data/
+|   |     ├── Subject002/
+│   |     │       ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
+│   │     │       ├── microUS_3D_Subject002_tumor_label.nii.gz       # 3D Micro-US Tumor Label
+│   │     │       ├── Subject002_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
+│   │     │       ├── Subject002_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
+│   │     │       ├── Subject002_histopathology_volume.nii.gz        # 3D Histopathology Volume
+│   │     │       ├── Subject002_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
+│   │     │       └── Subject002_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels for Corresponding Histopathological Slices
+│   |     ├── Subject006/
+│   │     │       ├── microUS_3D_Subject006_image.nii.gz             # 3D Micro-US Volume
+│   │     │       ├── microUS_3D_Subject006_tumor_label.nii.gz       # 3D Micro-US Tumor Label
+│   │     │       ├── Subject006_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
+│   │     │       ├── Subject006_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
+│   │     │       ├── Subject006_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
+│   │     │       ├── Subject006_histopathology_volume.nii.gz        # 3D Histopathology Volume
+│   │     │       ├── Subject006_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
+│   │     │       └── Subject006_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels for Corresponding Histopathological Slices
+│   |     ├── Subject008/
+│   │     └──  ...                                                   # Similar structure for eighteen subjects
+│   └── .................       
 │
-├── InteractiveCodes/                                      # Folder for interactive Jupyter notebooks
-│   ├── 1_Preparing_the_Data.ipynb                         # Notebook to prepare the dataset for image registration
-│   ├── 2_Train_Registration_Networks.ipynb                # Notebook for training deep-learning networks for registration
-│   ├── 3_Performance_Evaluation.ipynb                     # Notebook to evaluate and produce registered images and metrics
-│   └── utils/                                             # Utility functions required for notebooks
+├── InteractiveCodes/                                                # Folder for interactive Jupyter notebooks
+│   ├── 1_Preparing_the_Data.ipynb                                   # Notebook to prepare the dataset for image registration
+│   ├── 2_Train_Registration_Networks.ipynb                          # Notebook for training deep-learning networks for registration
+│   ├── 3_Performance_Evaluation.ipynb                               # Notebook to evaluate and produce registered images and metrics
+│   └── utils/                                                       # Utility functions required for notebooks
 │
-└── ScriptedCodes/                                         # Folder for scripted Jupyter notebooks
-    ├── 1_Preparing_the_Data.ipynb                         # Notebook to prepare the dataset for image registration
-    ├── 2_affine_registration_training.ipynb               # Notebook for training deep-learning networks for registration
-    ├── 3_Performance_Evaluation.ipynb                     # Notebook to evaluate and produce registered images and metrics
-    └── utils/                                             # Utility functions required for notebooks
+└── ScriptedCodes/                                                   # Folder for scripted Jupyter notebooks
+    ├── 1_Preparing_the_Data.ipynb                                   # Notebook to prepare the dataset for image registration
+    ├── 2_affine_registration_training.ipynb                         # Notebook for training deep-learning networks for registration
+    ├── 3_Performance_Evaluation.ipynb                               # Notebook to evaluate and produce registered images and metrics
+    └── utils/                                                       # Utility functions required for notebooks
 
 ```
 
