@@ -224,7 +224,8 @@ Feel free to experiment and improve upon our results.
 ![SimpleITK Version](https://img.shields.io/badge/SimpleITK-2.2.1-00BFFF?labelColor=2C3E50&logo=simplitk&logoColor=white) &emsp;
 ![CSV Version](https://img.shields.io/badge/CSV-1.0-FF6347?labelColor=008080&logo=csv&logoColor=white) &emsp;
 ![Pandas Version](https://img.shields.io/badge/Pandas-2.0.0-150458?labelColor=DAF7A6&logo=pandas&logoColor=white) &emsp;
-![PyTorch Version](https://img.shields.io/badge/PyTorch-2.0.1-EE4C2C?labelColor=FFC0CB&logo=pytorch&logoColor=white) 
+![PyTorch Version](https://img.shields.io/badge/PyTorch-2.0.1-EE4C2C?labelColor=FFC0CB&logo=pytorch&logoColor=white)  &emsp;
+![TQDM Version](https://img.shields.io/badge/TQDM-4.66.4-EE4C2C?labelColor=333333&logo=tqdm&logoColor=white)
 
 </div>
 
