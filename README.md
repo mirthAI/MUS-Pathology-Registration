@@ -39,6 +39,10 @@ This repository contains code and a dataset for a semi-automated approach to reg
 
 Our method utilizes deep learning to improve the accuracy of interpreting Micro-US images, which are a cost-effective alternative to MRI-guided biopsies. The challenge lies in differentiating cancerous from healthy tissue due to subtle variations in grayscale.
 
+<div align=center> 
+  <img align="left" width="1000" height="400" src="assets/registration_outline.jpg" alt="MicroUS and Histopathology Registration Outline">
+</div>
+
 **Key Features:**
 
 - **Code for image registration:** This code implements a two-stage deep learning framework for registering Micro-US slices with histopathology images.
