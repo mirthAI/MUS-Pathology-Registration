@@ -138,11 +138,11 @@ For those who prefer running scripts from the shell, follow these steps to train
    ```bash
    conda activate MicroUS_Hist_Registration
    ```
-3. **Install Required Packages:** Install the necessary packages listed in the **[requirements.txt](https://github.com/ImranNust/CIS-UNet-Context-Infused-Swin-UNet-for-Aortic-Segmentation/blob/main/requirements.txt)** file.
+3. **Install Required Packages:** Install the necessary packages listed in the **[requirements.txt](https://github.com/mirthAI/MUS-Pathology-Registration/blob/main/requirements.txt)** file.
    ```bash
    pip install -r ./requirements.txt
    ```
-   For some reason, if you are unable to install from the `requirements.txt` file, you can manually install the dependencies listed below.
+   For some reason, if you are unable to install from the `requirements.txt` file, you can manually install the [dependencies](#dependencies) listed below.
 4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
    - Navigate to the directory where the script is saved:
      ```bash
@@ -210,7 +210,7 @@ Feel free to experiment and improve upon our results.
 
 ---
 
-## Dependencies
+## Dependencies <a id="dependencies"></a>
 
 <div align=center>
   
