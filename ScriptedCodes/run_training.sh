@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Directories
-DATA_DIR="../data1/processed_png_data/"
+DATA_DIR="../data/processed_png_data/"
 SAVED_MODEL_DIR="./saved_models/"
 RESULTS_DIR="./results/"
 NUM_OF_FOLDS=6
