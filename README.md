@@ -142,7 +142,7 @@ For those who prefer running scripts from the shell, follow these steps to train
    ```bash
    pip install -r ./requirements.txt
    ```
-   For some reason, if you are unable to install from the `requirements.txt` file, you can manually install the dependencies listed below. To install Monai, use ```pip install monai[all]```
+   For some reason, if you are unable to install from the `requirements.txt` file, you can manually install the dependencies listed below.
 4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
    - Navigate to the directory where the script is saved:
      ```bash
