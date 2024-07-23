@@ -184,9 +184,9 @@ For those who prefer running scripts from the shell, follow these steps to train
 
 For those who prefer Jupyter notebooks, navigate to the `InteractiveCodes` directory, where you will find three notebooks:
 
-1. **1_Preparing_the_Data.ipynb**
-2. **2_Train_Registration_Networks.ipynb**
-3. **3_Performance_Evaluation.ipynb**
+1. **[1_Preparing_the_Data.ipynb](https://github.com/mirthAI/MUS-Pathology-Registration/blob/main/InteractiveCodes/1_Preparing_the_Data.ipynb)**
+2. **[2_Train_Registration_Networks.ipynb](https://github.com/mirthAI/MUS-Pathology-Registration/blob/main/InteractiveCodes/2_Train_Registration_Networks.ipynb)**
+3. **[3_Performance_Evaluation.ipynb](https://github.com/mirthAI/MUS-Pathology-Registration/blob/main/InteractiveCodes/3_Performance_Evaluation.ipynb)**
 
 ### Steps:
 
@@ -227,8 +227,9 @@ Feel free to experiment and improve upon our results.
 
 ## Citations <a id="citations"></a>
 
-If you utilize our code or dataset in your research, we kindly ask you to acknowledge our work by citing the following publication:
+If you utilize our code or dataset in your research, we kindly ask you to acknowledge our **[work](https://www.sciencedirect.com/science/article/pii/S1746809424007158?via%3Dihub)** by citing the following **[publication](https://www.sciencedirect.com/science/article/pii/S1746809424007158?via%3Dihub)**:
 
+<a href="https://www.sciencedirect.com/science/article/pii/S1746809424007158?via%3Dihub"></a>
 ```bibtex
 @article{imran2023image,
   title={Image Registration of In Vivo Micro-Ultrasound and Ex Vivo Pseudo-Whole Mount Histopathology Images of the Prostate: A Proof-of-Concept Study},
@@ -236,4 +237,5 @@ If you utilize our code or dataset in your research, we kindly ask you to acknow
   journal={arXiv preprint arXiv:2305.19939},
   year={2023}
 }
+
 ```
