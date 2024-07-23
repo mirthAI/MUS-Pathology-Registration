@@ -46,7 +46,7 @@ Our method utilizes deep learning to improve the accuracy of interpreting Micro-
 **Key Features:**
 
 - **Code for image registration:** This code implements a two-stage deep learning framework for registering Micro-US slices with histopathology images.
-- **Publicly available dataset:** The dataset for eigteen subjects can be downloaded from the link, containing a dataset of Micro-US and histopathology images.
+- **Publicly available dataset:** The dataset for eigteen subjects can be downloaded from the link, containing a dataset of 3D Micro-US and 3D histopathology volumes.
 - **High accuracy:** Our evaluation demonstrates a Dice coefficient of 0.97 and a mean landmark error of 2.84 mm, indicating successful image alignment.
 
 This is a proof-of-concept study showcasing the potential of deep learning for more accurate Micro-US prostate cancer diagnosis.
