@@ -231,11 +231,15 @@ If you utilize our code or dataset in your research, we kindly ask you to acknow
 
 <a href="https://www.sciencedirect.com/science/article/pii/S1746809424007158?via%3Dihub"></a>
 ```bibtex
-@article{imran2023image,
-  title={Image Registration of In Vivo Micro-Ultrasound and Ex Vivo Pseudo-Whole Mount Histopathology Images of the Prostate: A Proof-of-Concept Study},
-  author={Imran, Muhammad and Nguyen, Brianna and Pensa, Jake and Falzarano, Sara M and Sisk, Anthony E and Liang, Muxuan and DiBianco, John Michael and Su, Li-Ming and Zhou, Yuyin and Brisbane, Wayne G and Shao, Wei},
-  journal={arXiv preprint arXiv:2305.19939},
-  year={2023}
+@article{IMRAN2024106657,
+title = {Image registration of in vivo micro-ultrasound and ex vivo pseudo-whole mount histopathology images of the prostate: A proof-of-concept study},
+journal = {Biomedical Signal Processing and Control},
+volume = {96},
+pages = {106657},
+year = {2024},
+issn = {1746-8094},
+doi = {https://doi.org/10.1016/j.bspc.2024.106657},
+url = {https://www.sciencedirect.com/science/article/pii/S1746809424007158},
+author = {Muhammad Imran and Brianna Nguyen and Jake Pensa and Sara M. Falzarano and Anthony E. Sisk and Muxuan Liang and John Michael DiBianco and Li-Ming Su and Yuyin Zhou and Jason P. Joseph and Wayne G. Brisbane and Wei Shao},
 }
-
 ```
