@@ -226,7 +226,7 @@ Feel free to experiment and improve upon our results.
 ![Pandas Version](https://img.shields.io/badge/Pandas-2.0.0-150458?labelColor=DAF7A6&logo=pandas&logoColor=white) &emsp;
 ![PyTorch Version](https://img.shields.io/badge/PyTorch-2.0.1-EE4C2C?labelColor=FFC0CB&logo=pytorch&logoColor=white)  &emsp;
 ![TQDM Version](https://img.shields.io/badge/TQDM-4.66.4-EE4C2C?labelColor=191970&logo=pytorch&logoColor=white)  &emsp;
-![Torchmetrics Version](https://img.shields.io/badge/Torchmetrics-4.66.4-800000?labelColor=004d00&logo=torchmetrics&logoColor=white)
+![Torchmetrics Version](https://img.shields.io/badge/Torchmetrics-1.2.1-800000?labelColor=004d00&logo=torchmetrics&logoColor=white)
 
 </div>
 
