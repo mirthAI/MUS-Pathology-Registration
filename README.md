@@ -140,8 +140,9 @@ For those who prefer running scripts from the shell, follow these steps to train
    ```
 3. **Install Required Packages:** Install the necessary packages listed in the **[requirements.txt](https://github.com/ImranNust/CIS-UNet-Context-Infused-Swin-UNet-for-Aortic-Segmentation/blob/main/requirements.txt)** file.
    ```bash
-   pip install -r requirements.txt
+   pip install -r ./requirements.txt
    ```
+   For some reason, if you are unable to install from the `requirements.txt` file, you can manually install the dependencies listed below. To install Monai, use ```pip install monai[all]```
 4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
    - Navigate to the directory where the script is saved:
      ```bash
