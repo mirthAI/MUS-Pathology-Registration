@@ -8,3 +8,4 @@ SimpleITK==2.2.1
 pandas==2.0.0
 torch==2.0.1
 tqdm==4.66.4
+torchmetrics=1.2.1
