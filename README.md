@@ -2,7 +2,7 @@
   <img align="left" width="200" height="170" src="assets/LogoWithoutBG.png" alt="MicroUS and Histopathology Registration">
   Image Registration of <i>In Vivo</i> Micro-Ultrasound and <i>Ex Vivo</i> Pseudo-Whole Mount Histopathology Images of the Prostate: A Proof-of-Concept Study</h1>
 
-Welcome to the repository containing the code for our **Microu-Us and Histopathology Image Registration Newtork**, a deep learning model designed for registering micro-ultrasound and histopathology images.
+Welcome to the repository containing the code for our **Microu-Us and Histopathology Image Registration Network**, a deep-learning model designed for registering micro-ultrasound and histopathology images.
   
 [![](https://img.shields.io/badge/Imran-gray?logo=github&logoColor=white&label=Muhammad&labelColor=darkgreen&color=red)](https://www.linkedin.com/in/imrannust/) &emsp;
 [![](https://img.shields.io/badge/Nguyen-gray?logo=ResearchGate&logoColor=white&label=Brianna&labelColor=darkblue&color=limegreen)](https://www.researchgate.net/profile/Brianna_Nguyen2) &emsp;
@@ -37,7 +37,7 @@ Welcome to the repository containing the code for our **Microu-Us and Histopatho
 
 This repository contains code and a dataset for a semi-automated approach to registering **in vivo micro-ultrasound (Micro-US)** images with **ex vivo whole-mount histopathology** images for prostate cancer diagnosis.
 
-Our method utilizes deep learning to improve the accuracy of interpreting Micro-US images, which are a cost-effective alternative to MRI-guided biopsies. The challenge lies in differentiating cancerous from healthy tissue due to subtle variations in grayscale.
+Our method utilizes deep learning to improve the accuracy of interpreting Micro-US images, a cost-effective alternative to MRI-guided biopsies. The challenge lies in differentiating cancerous from healthy tissue due to subtle variations in grayscale.
 
 <div align=center> 
   <img align="left" width="1000" height="400" src="assets/registration_outline.jpg" alt="MicroUS and Histopathology Registration Outline">
@@ -46,7 +46,7 @@ Our method utilizes deep learning to improve the accuracy of interpreting Micro-
 **Key Features:**
 
 - **Code for image registration:** This code implements a two-stage deep learning framework for registering Micro-US slices with histopathology images.
-- **Publicly available dataset:** The dataset for eigteen subjects can be downloaded from the link, containing a dataset of 3D Micro-US and 3D histopathology volumes.
+- **Publicly available dataset:** The dataset for eighteen subjects can be downloaded from the link, containing a dataset of 3D Micro-US and 3D histopathology volumes.
 - **High accuracy:** Our evaluation demonstrates a Dice coefficient of 0.97 and a mean landmark error of 2.84 mm, indicating successful image alignment.
 
 This is a proof-of-concept study showcasing the potential of deep learning for more accurate Micro-US prostate cancer diagnosis.
@@ -124,7 +124,7 @@ Please download the dataset from the provided link and place it in the data dire
 
 <div align=center> <h1> 
   <a id="scripted_code"></a>
-  Scipted Code
+  Scripted Code
 </h1></div>
 
 For those who prefer running scripts from the shell, follow these steps to train the model:
@@ -134,7 +134,7 @@ For those who prefer running scripts from the shell, follow these steps to train
    ```bash
    conda create --name MicroUS_Hist_Registration python=3.10
    ```
-2. **Activate the Enviornment:** Activate the newly created environment.
+2. **Activate the Environment:** Activate the newly created environment.
    ```bash
    conda activate MicroUS_Hist_Registration
    ```
@@ -142,14 +142,14 @@ For those who prefer running scripts from the shell, follow these steps to train
    ```bash
    pip install -r ./requirements.txt
    ```
-   For some reason, if you are unable to install from the `requirements.txt` file, you can manually install the [dependencies](#dependencies) listed below.
-4. **Prepare the Dataset:** Prepare the dataset for the training of deep-learning based image registration network.
+   If you cannot install from the `requirements.txt` file, you can manually install the [dependencies](#dependencies) listed below.
+4. **Prepare the Dataset:** Prepare the dataset for training a deep-learning-based image registration network.
    - Navigate to the directory where the script is saved:
      ```bash
      cd ScriptedCodes
      ```
      
-    - Now runt the following commands to prepare the dataset for image registration task:
+    - Now run the following commands to prepare the dataset for the image registration task:
     
       ```bash
       chmod +x ./run_data_preparation.sh
@@ -196,7 +196,7 @@ For those who prefer Jupyter notebooks, navigate to the `InteractiveCodes` direc
 ### Steps:
 
 1. **Prepare the Dataset:** 
-   - Open `1_Preparing_the_Data.ipynb` and run it. This self-explanatory notebook will guide you through all the steps to prepare the dataset. 
+   - Open `1_Preparing_the_Data.ipynb` and run it. This self-explanatory notebook will guide you through all the dataset preparation steps. 
    - This process will create two folders, `png_data` and `processed_png_data`, inside the `data` directory. The images inside `processed_png_data` will be used to train the networks; you may delete the `png_images` directory if desired.
 
 2. **Train Image Registration Network:** 
@@ -204,7 +204,7 @@ For those who prefer Jupyter notebooks, navigate to the `InteractiveCodes` direc
 
 3. **Prediction and Evaluation:** 
    - Open `3_Performance_Evaluation.ipynb` and run it. This notebook will guide you through the steps for prediction and generating evaluation metrics.
-   - This process will generate the deformed registered images in the `results` directory. Additionally, a CSV file will be generated containing the Dice coefficient, Hausdorff distance, Urethra distance, distances for Landmark 1, 2, and 3, as well as the average landmark distance.
+   - This process will generate the deformed registered images in the `results` directory. Additionally, a CSV file will be generated containing the Dice coefficient, Hausdorff distance, Urethra distance, distances for Landmarks 1, 2, and 3, as well as the average landmark distance.
 
 Feel free to experiment and improve upon our results.
 
