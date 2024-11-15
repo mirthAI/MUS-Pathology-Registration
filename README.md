@@ -80,6 +80,7 @@ MUS-Pathology-Registration/
 |   |     ├── Subject002/
 │   |     │       ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
 │   │     │       ├── Subject002_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
+│   │     │       ├── Subject002_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
 │   │     │       ├── Subject002_histopathology_volume.nii.gz        # 3D Histopathology Volume
 │   │     │       ├── Subject002_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
 │   │     │       └── Subject002_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels for Corresponding Histopathological Slices
