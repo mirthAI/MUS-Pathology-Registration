@@ -75,7 +75,7 @@ This is a proof-of-concept study showcasing the potential of deep learning for m
 
 ```
 MUS-Pathology-Registration/
-├── data/                                                  # Main data directory in NIfTI format
+├── data/                                                            # Main data directory in NIfTI format
 │   ├── nifti_data/
 |   |     ├── Subject002/
 │   |     │       ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
