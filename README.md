@@ -79,16 +79,12 @@ MUS-Pathology-Registration/
 │   ├── nifti_data/
 |   |     ├── Subject002/
 │   |     │       ├── microUS_3D_Subject002_image.nii.gz             # 3D Micro-US Volume
-│   │     │       ├── microUS_3D_Subject002_tumor_label.nii.gz       # 3D Micro-US Tumor Label
-│   │     │       ├── Subject002_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
 │   │     │       ├── Subject002_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
 │   │     │       ├── Subject002_histopathology_volume.nii.gz        # 3D Histopathology Volume
 │   │     │       ├── Subject002_microUS_landmark.seg.nrrd           # 3D Micro-US Landmarks
 │   │     │       └── Subject002_slice_correspondence.seg.nrrd       # 3D Micro-US Prostate Labels for Corresponding Histopathological Slices
 │   |     ├── Subject006/
 │   │     │       ├── microUS_3D_Subject006_image.nii.gz             # 3D Micro-US Volume
-│   │     │       ├── microUS_3D_Subject006_tumor_label.nii.gz       # 3D Micro-US Tumor Label
-│   │     │       ├── Subject006_histopathology_cancer.seg.nrrd      # 3D Histopathology Cancer Labels
 │   │     │       ├── Subject006_histopathology_landmark.seg.nrrd    # 3D Histopathology Landmarks
 │   │     │       ├── Subject006_histopathology_prostate.seg.nrrd    # 3D Histopathology Prostate Label
 │   │     │       ├── Subject006_histopathology_volume.nii.gz        # 3D Histopathology Volume
